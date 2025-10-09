@@ -23,7 +23,7 @@ const greeting = {
   username: "Aqdam Rahman. ",
   title: "Hi all, I'm Aqdam",
   subTitle: emoji(
-    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines (Azure DevOps, Jenkins), nfrastructure as code (ARM templates, Terraform), and containerized applications (Docker on Azure VMs). I thrive on solving challenges at the intersection f development, infrastructure, and automation. utside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
+    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection f development, infrastructure, and automation. Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Build Reliable, Scalable Infra"
     ),
-    emoji("⚡ Automated Stuffs"),
+    emoji("⚡ Automate Stuffs"),
     emoji(
-      "⚡ xyzcnuo"
+      "⚡ Fix Issues"
     )
   ],
 
@@ -65,8 +65,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "css3",
@@ -126,23 +126,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "JSS Academy of Technical Education, Bangalore",
+      logo: require("./assets/images/jssate.png"),
+      subHeader: "Bachelor's in Engineering",
+      duration: "August 2016 - July 2020",
+      desc: "Participated in the Research of Effect of Coarse Aggregate on Self Compacting Concrete and published 1 paper.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "MDB DAV Public School, Bankura",
+      logo: require("./assets/images/dav.png"),
+      subHeader: "Physics Chemistry Maths - Comp Sc",
+      duration: "April 2014 - March 2016",
+      desc: "Scored an average of 85%",
+      descBullets: [
+        "Participated in zonal Kho-Kho tournament",
+        "Achieved multiple medals in athletics."
+      ]
     }
   ]
 };
@@ -153,16 +155,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Azure", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Scripting/Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Deployment",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +176,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Devops Engineer",
+      company: "Accenture",
+      companylogo: require("./assets/images/accen.png"),
+      date: "October 2021 – November 2025",
+      desc: "Worked as a Devops Engineer supporting Microsoft Client to help build s",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Design Intern",
+      company: "Design Tree Service Consultant Pvt Ltd",
+      companylogo: require("./assets/images/des.png"),
+      date: "July 2019 – August 2019",
+      desc: "Worked on School Building Design"
+      
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -213,28 +209,39 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some Personal Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/2048.png"),
+      projectName: "2048 Game",
+      projectDesc: "DevSecOps: Deployed the 2048 Game on Docker and Kubernetes with Jenkins CI/CD.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/aqdam11/2048-Game"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/jenkins.png"),
+      projectName: "Website Automation",
+      projectDesc: "Deploying and Automating website to Azure VM",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/aqdam11/Deploying-Website-to-Azure-VM"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/a.png"),
+      projectName: "College Building Design",
+      projectDesc: "Created 3D Image of the college building using AutoCAD",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://aqrdesigner.blogspot.com/"
         }
       ]
     }
@@ -252,51 +259,48 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Microsoft Certified: Azure Administrator Associate",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/az104.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://learn.microsoft.com/en-gb/users/rahmanaqdam-0904/credentials/6057f2ad1afe5531?ref=https%3A%2F%2Fwww.linkedin.com%2F"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Certified: Azure Fundamentals",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/az900.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://learn.microsoft.com/en-gb/users/rahmanaqdam-0904/credentials/1bb8d1285b81c12a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Cloud Engineering with Google Cloud Specialization",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/gcp.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://coursera.org/verify/professional-cert/S8F5ZWG9H78R"},
+      ]
+    },
+    {
+      title: "HackerRank - SQL (Intermediate)",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/hr.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.hackerrank.com/certificates/4e9ed4118cb3"},
       ]
     }
   ],
@@ -312,16 +316,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@aqdampoke62/what-is-docker-38afcd25757e",
+      title: "What is Docker?",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Learn Docker in a simple way!"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@aqdampoke62/what-is-jenkins-378cdd8ac702",
+      title: "What is Jenkins?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Learn Jenkins in a simple way!"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -372,8 +376,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9591587443",
+  email_address: "aqdam.1js16cv006@gmail.com"
 };
 
 // Twitter Section
