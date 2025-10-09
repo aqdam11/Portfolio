@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Aqdam Rahman",
+  title: "Hi all, I'm Aqdam",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines (Azure DevOps, Jenkins), nfrastructure as code (ARM templates, Terraform), and containerized applications (Docker on Azure VMs). I thrive on solving challenges at the intersection f development, infrastructure, and automation. utside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
