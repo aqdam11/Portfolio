@@ -23,7 +23,7 @@ const greeting = {
   username: "Aqdam Rahman. ",
   title: "Hi all, I'm Aqdam",
   subTitle: emoji(
-    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection f development, infrastructure, and automation.<br/><br/>Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
+    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection of development, infrastructure, and automation. Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -39,6 +39,7 @@ const socialMediaLinks = {
   //gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/aqdam.poke",
   medium: "https://medium.com/@aqdampoke62",
+  instagram: "https://instagram.com/aqdam_rahman",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -56,7 +57,7 @@ const skillsSection = {
     ),
     emoji("⚡ Automate Stuffs"),
     emoji(
-      "⚡ Fix Issues"
+      "⚡ Fix Servers"
     )
   ],
 
@@ -69,28 +70,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-cloud"
     },
     {
-      skillName: "sass",
+      skillName: "SaaS",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "npm",
@@ -101,12 +102,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Suse",
+      fontAwesomeClassname: "fab fa-suse"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "python",
@@ -130,9 +131,9 @@ const educationInfo = {
       logo: require("./assets/images/jssate.png"),
       subHeader: "Bachelor's in Engineering",
       duration: "August 2016 - July 2020",
-      desc: "Participated in the Research of Effect of Coarse Aggregate on Self Compacting Concrete and published 1 paper.",
+      desc: "Scored an average of 60%",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Published Research Paper on Effect of size of Coarse Aggregate on Self Compacting Concrete of M50 Grade."
       ]
     },
     {
@@ -180,10 +181,16 @@ const workExperiences = {
       company: "Accenture",
       companylogo: require("./assets/images/accen.png"),
       date: "October 2021 – November 2025",
-      desc: "Worked as a Devops Engineer supporting Microsoft Client to help build s",
+      desc: "Worked as a Devops Engineer supporting Microsoft Client",
       descBullets: [
-        "",
-        ""
+        "Built and managed CI/CD pipelines with Jenkins and Docker to automate the build process of applications.",
+        "Led end-to-end cluster buildouts for Nutanix along with Azure infra setup for each location, ensuring seamless integration and optimized performance.",
+        "Implemented System automation using scripting languages Python and Bash, cutting manual work by 60%.",
+        "Deployed applications to the cloud using ARM template with CI/CD pipeline in Azure Devops.",
+        "Performed provisioning of new Customer and Decommissioning of existing customer for BareMetal servers.",
+        "Performed end-to-end datacenter build and on requirement of discrete server installation.",
+        "Worked on script for swap of servers, Firmware Upgrade and Gen IO Testing",
+        "Worked closely with on-site Network Engineers to configure/troubleshoot switches, routers and managed NetApp storage Solution"
       ]
     },
     {
@@ -191,8 +198,13 @@ const workExperiences = {
       company: "Design Tree Service Consultant Pvt Ltd",
       companylogo: require("./assets/images/des.png"),
       date: "July 2019 – August 2019",
-      desc: "Worked on School Building Design"
-      
+      desc: "Worked on School Building Design",
+      descBullets: [
+        "Assisted in the architectural planning and layout design for a school building project.",
+        "Created 2D and 3D design models using AutoCAD",
+        "Performed structural load testing on columns and slabs to assess their strength and stability.",
+        "Conducted site analysis and gathered data to support sustainable design solutions."
+      ]
     },
   ]
 };
@@ -235,6 +247,30 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/paper.png"),
+      projectName: "Paper Publication",
+      projectDesc: "Study fresh and mechanical properties of M50 grade Self Compacting Concrete by changing the size of coarse aggregate.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.irjet.net/archives/V7/i8/IRJET-V7I8424.pdf"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/tableau.png"),
+      projectName: "Covid19 India Analysis and Dashboard Visualization using Tableau",
+      projectDesc: "An interactive Tableau dashboard that analyzes and visualizes the spread, trends, and impact of COVID-19 across India using real-time and historical data.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://public.tableau.com/app/profile/aqdam.rahman/viz/Covid19India_16193394243840/Covid19IndiaAnalysis"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/a.png"),
       projectName: "College Building Design",
       projectDesc: "Created 3D Image of the college building using AutoCAD",
@@ -261,7 +297,7 @@ const achievementSection = {
     {
       title: "Microsoft Certified: Azure Administrator Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "The skill of an Azure Administrator, covering how to implement and manage core Azure services, including storage, compute, and networking",
       image: require("./assets/images/az104.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -272,10 +308,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Microsoft Certified: Azure Fundamentals",
+      title: "Microsoft Certified: Azure Fundamentals                     AZ900",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/az900.png"),
+        "Foundational understanding of cloud computing and Microsoft Azure services",
+      image: require("./assets/images/az901.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -287,7 +323,7 @@ const achievementSection = {
 
     {
       title: "Cloud Engineering with Google Cloud Specialization",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Learned to design, build and manage cloud solution on Google Cloud. Covers key areas like setting up and securing netowrks, running application on Google Kubernetes Engine, and managing cost and security.",
       image: require("./assets/images/gcp.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -296,7 +332,7 @@ const achievementSection = {
     },
     {
       title: "HackerRank - SQL (Intermediate)",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Completed Certifcation from HackerRank by solving problems that focus on concepts and technique necessary for more complex data manipulation, analysis and query optimization.",
       image: require("./assets/images/hr.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -336,15 +372,15 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Coming Soon.. 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Construction in Progress! 🚧 ",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -354,11 +390,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Sometime in the future...",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: true // Set false to hide this section, defaults to true
 };
