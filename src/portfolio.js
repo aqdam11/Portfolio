@@ -23,7 +23,7 @@ const greeting = {
   username: "Aqdam Rahman. ",
   title: "Hi all, I'm Aqdam",
   subTitle: emoji(
-    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection f development, infrastructure, and automation. Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
+    "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection f development, infrastructure, and automation.\n\n Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
