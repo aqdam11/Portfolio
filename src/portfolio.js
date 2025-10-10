@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Aqdam Rahman. ",
-  title: "Hi all, I'm Aqdam ",
+  title: "Hi all, I'm Aqdam cjkc",
   subTitle: emoji(
     "I love Cloud and enjoy building reliable, scalable, and automated infrastructure—especially in Azure. I have hands-on experience with CI/CD pipelines, IaC and containerized applications. I thrive on solving challenges at the intersection f development, infrastructure, and automation. Outside the world of pipelines and deployments, you’ll often find me sketching, playing chess, catching up on F1, lifting at the gym, reading fiction, playing tennis or discovering new places. "
   ),
