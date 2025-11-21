@@ -180,7 +180,7 @@ const workExperiences = {
       role: "Senior Devops Engineer",
       company: "Wipro",
       companylogo: require("./assets/images/wipro.png"),
-      date: "November 2015 – Present",
+      date: "November 2025 – Present",
       desc: "Golang Developer for HPE Client",
       descBullets: [
         "Yet to start..."
