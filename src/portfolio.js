@@ -177,6 +177,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Design Intern",
+      company: "Design Tree Service Consultant Pvt Ltd",
+      companylogo: require("./assets/images/des.png"),
+      date: "July 2019 – August 2019",
+      desc: "Worked on School Building Design",
+      descBullets: [
+        "Assisted in the architectural planning and layout design for a school building project.",
+        "Created 2D and 3D design models using AutoCAD",
+        "Performed structural load testing on columns and slabs to assess their strength and stability.",
+        "Conducted site analysis and gathered data to support sustainable design solutions."
+      ]
+    },
+    {
       role: "Devops Engineer",
       company: "Accenture",
       companylogo: require("./assets/images/accen.png"),
